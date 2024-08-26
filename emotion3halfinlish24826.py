@@ -50,7 +50,7 @@ while True:
             cv2.rectangle(frame, (x, y), (x + w, y + h), (160, 32, 240), 2)
             cv2.putText(frame, f"{dominant_emotion}: {percentage:.2f}%", (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (160, 32, 240), 2)
             # 顯示影像並停留五秒
-            cv2.imshow('Emotion Detection', frame)
+            cv2.imshow('Yu chia hao', frame)
             cv2.waitKey(5000)  # 停留五秒
             # 重置計數和計時器
             emotion_counts = {'happy': 0, 'sad': 0, 'angry': 0}
@@ -66,7 +66,7 @@ while True:
         start_time = time.time()
 
     # 顯示影像
-    cv2.imshow('Emotion Detection', frame)
+    cv2.imshow('Yu chia hao', frame)
 
     # 按 'q' 退出
     if cv2.waitKey(1) & 0xFF == ord('q'):
