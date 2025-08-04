@@ -57,3 +57,15 @@ This is probably the shortest code to implement realtime emotion monitoring.
 13. If the 'q' key is pressed, exit the loop.
 
 14. Release the video capture and close all windows using `cap.release()` and `cv2.destroyAllWindows()`.
+    ## 📜 License
+
+This code is licensed under the MIT License.
+
+This software originates from the master's thesis:  
+"Music Healing System Design with Emotion Recognition for the Elderly"  
+Published on July 22, 2025, at Mackay Medical College, Taiwan.
+
+Users are free to use or modify the software under the MIT terms,  
+but must include proper citation of the original thesis if used for academic or research purposes.  
+See [LICENSE](LICENSE) for details.
+
