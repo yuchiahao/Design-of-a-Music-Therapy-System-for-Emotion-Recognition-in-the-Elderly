@@ -43,9 +43,10 @@ This system captures real-time video from the webcam, detects faces using OpenCV
 ├── LICENSE # License 授權條款
 └── README.md # This file 本說明文件
 
+yaml
 
 
----
+
 
 ## ⚙️ Requirements｜執行環境
 
@@ -62,11 +63,14 @@ This system captures real-time video from the webcam, detects faces using OpenCV
 pip install -r requirements.txt
 如果沒有 requirements.txt，你也可以單獨安裝：
 
-
+bash
+複製程式碼
 pip install opencv-python deepface numpy Pillow pygame
 🚀 How to Run｜執行方式
 Clone the repository 複製此專案：
 
+bash
+複製程式碼
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 Make sure you have haarcascade_frontalface_default.xml in the directory
@@ -74,13 +78,15 @@ Make sure you have haarcascade_frontalface_default.xml in the directory
 
 Place music files in the following directories 根據情緒放入音樂檔案：
 
-
+bash
+複製程式碼
 music/happy/
 music/sad/
 music/angry/
 Run the program 啟動系統：
 
-
+bash
+複製程式碼
 python emotion_recognition.py
 Press q to exit 按 q 離開程式。
 
@@ -96,17 +102,27 @@ Matching music is played 播放對應音樂
 Display emotion label on screen 顯示中文情緒標籤
 
 📜 License｜授權條款
-This project is licensed under a modified MIT License for academic and non-commercial use only.
-Users must cite the original thesis if used in academic research. Commercial use requires permission.
+This project is licensed under the Apache License 2.0.
+You may obtain a copy of the License at:
 
-本專案依據 MIT 授權條款釋出，僅供學術用途與非商業展示。
-若用於研究請註明出處，如需商業用途請聯繫作者。
+http://www.apache.org/licenses/LICENSE-2.0
 
-📄 See full terms 詳見 LICENSE 檔案。
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the LICENSE file for the specific language governing permissions and limitations under the License.
+
+本專案依據 Apache License 2.0 授權條款釋出。
+除法律要求或另有書面約定外，本軟體按「現狀」提供，不提供任何明示或暗示之擔保。
+完整條款請參閱 LICENSE 檔案。
+
+👉 Academic users are encouraged to cite the original thesis.
+👉 建議於學術研究中引用本論文作為出處。
+
+🤝 For commercial collaborations, users are encouraged to contact the author.
+🤝 若欲進行商業合作，建議先與作者聯繫。
 
 🙋 Contact｜聯絡方式
 If you would like to collaborate, request permission for commercial use, or provide feedback, please contact:
-📧 [dvdbssss@gmail.com] 
+📧 [dvdbssss@gmail.com]
 
 🙏 Acknowledgments｜致謝
 Professor Ming-Cheng Yang for academic guidance
