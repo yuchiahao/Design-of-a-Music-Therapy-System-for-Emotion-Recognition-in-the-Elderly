@@ -15,4 +15,4 @@
 
 
 
-五分鐘後的情緒![成果截圖2](https://github.com/user-attachments/assets/27dd6d56-a0ab-453d-9751-5a8eeff88fe0)
+經過八分鐘播放音樂後的情緒![成果截圖2](https://github.com/user-attachments/assets/27dd6d56-a0ab-453d-9751-5a8eeff88fe0)
