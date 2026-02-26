@@ -39,3 +39,5 @@ python emotion_music_demo.py
 
 
 執行後會啟動攝影機，系統將即時辨識臉部情緒並播放對應音樂。
+
+本系統商品化的購買網址連結:https://7495494344925.gumroad.com/l/emotion-music-system
