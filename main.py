@@ -17,7 +17,7 @@ FONT_PATH = "NotoSansTC-VariableFont_wght.ttf"
 EMOTIONS = ["happy", "sad", "angry"]
 EMOTION_TRANSLATION = {"happy": "快樂", "sad": "悲傷", "angry": "生氣"}
 
-EMOTION_THRESHOLD = 10          # 連續/累積達到幾次才觸發
+EMOTION_THRESHOLD = 5          # 連續/累積達到幾次才觸發
 RESET_INTERVAL_SEC = 180        # 超過多久沒有觸發就重置（秒）
 HOLD_DISPLAY_MS = 1500          # 觸發後畫面停留多久（展示用，毫秒）
 
@@ -163,3 +163,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
